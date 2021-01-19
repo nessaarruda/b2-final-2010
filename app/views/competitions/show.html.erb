@@ -1,1 +1,9 @@
 <h1><%= @competition.name %></h1>
+<h1>Location: <%= @competition.location %></h1>
+<h1>Sport: <%= @competition.sport %></h1>
+<h1>Players Average Age: <%= @competition.players_average_aget %></h1>
+<h2>Teams: </h2>
+<% @teams.each do |team| %>
+  <%= "Team Name: #{team.nickname}" %>
+  <%= "Team Hometown: #{team.hometown}" %>
+<% end %>

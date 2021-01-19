@@ -26,9 +26,9 @@ describe 'As a visitor when I visit the show page' do
       expect(page).to have_content(@competition_1.name)
       expect(page).to have_content(@competition_1.location)
       expect(page).to have_content(@competition_1.sport)
-      expect(page).to have_content(@team_1.name)
+      expect(page).to have_content(@team_1.nickname)
       expect(page).to have_content(@team_1.hometown)
-      expect(page).to have_content(@team_2.name)
+      expect(page).to have_content(@team_2.nickname)
       expect(page).to have_content(@team_2.hometown)
       expect(page).to have_content(@competition_1.players_average_age)
   end
