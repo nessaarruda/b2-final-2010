@@ -32,4 +32,21 @@ describe 'As a visitor when I visit the show page' do
       expect(page).to have_content(@team_2.hometown)
       expect(page).to have_content(@competition_1.players_average_age)
   end
+  it 'Has a link to register new team' do
+    expect(page).to have_link("Register Team")
+
+    click_on "Register Team"
+
+    expect(current_path).to eq(new_competition_team_path(@competition_1))
+    expect(page).to have_field(:hometown)
+    expect(page).to have_field(:nickname)
+
+    fill_in :hometown, with: 'Littleton'
+    fill_in :nickname, with: 'Sharks'
+
+    click_on :submit
+
+    expect(current_path).to eq(competition_path(@competition_1))
+    expect(page).to have_content('Littleton')
+  end
 end
