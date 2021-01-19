@@ -26,5 +26,9 @@ describe 'As a visitor when I visit the index page' do
     expect(page).to have_link(@competition_1.name)
     expect(page).to have_link(@competition_2.name)
     expect(page).to have_link(@competition_3.name)
+
+    click_on @competition_1.name
+
+    expect(current_path).to eq(competition_path(@competition_1))
   end
 end
