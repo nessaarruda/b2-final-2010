@@ -1,0 +1,6 @@
+<%= render partial: 'form', locals: {
+                                    team: @team,
+                                    path: "competitions/#{@competition.id}/teams/@team.id",
+                                    method: :post,
+                                    button_text: :submit,
+                                    } %>

@@ -1,0 +1,7 @@
+<%= form_with url: path, model: @team, method: method, class: "team_form", local: true do |f| %>
+  <%= f.label :nickname %>
+  <%= f.text_field :nickname, id: "nickname" %>
+  <%= f.label :hometown %>
+  <%= f.text_field :hometown, id: "hometown" %>
+  <%= submit_tag button_text %>
+<% end %>
