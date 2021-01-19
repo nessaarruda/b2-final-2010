@@ -26,7 +26,7 @@ RSpec.describe Competition, type: :model do
       @player_3 = @team_2.players.create!(name: 'Johnny Bullet', age: 22)
     end
     it 'players average age' do
-      expect(@competition_1.players_average_age).to eq(22.5)
+      expect(@competition_1.players_average_age).to eq(22.33)
     end
   end
 end

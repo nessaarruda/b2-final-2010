@@ -1,7 +1,58 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/v/mod_2/b2-final-2010/app/models/competition.rb": {
+      "/Users/v/mod_2/b2-final-2010/spec/features/competitions/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/v/mod_2/b2-final-2010/spec/models/championship_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/v/mod_2/b2-final-2010/app/models/championship.rb": {
         "lines": [
           1,
           1,
@@ -16,20 +67,63 @@
           null
         ]
       },
-      "/Users/v/mod_2/b2-final-2010/app/models/team.rb": {
+      "/Users/v/mod_2/b2-final-2010/spec/models/competition_spec.rb": {
         "lines": [
           1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          1,
+          1,
+          null,
           1,
           1,
           1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
           null
         ]
       },
-      "/Users/v/mod_2/b2-final-2010/app/models/championship.rb": {
+      "/Users/v/mod_2/b2-final-2010/app/models/competition.rb": {
         "lines": [
           1,
           1,
           1,
+          1,
+          null,
+          1,
+          4,
+          null,
+          null
+        ]
+      },
+      "/Users/v/mod_2/b2-final-2010/spec/models/player_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
           null
         ]
       },
@@ -40,17 +134,39 @@
           null
         ]
       },
+      "/Users/v/mod_2/b2-final-2010/spec/models/team_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/v/mod_2/b2-final-2010/app/models/team.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/v/mod_2/b2-final-2010/app/controllers/competitions_controller.rb": {
         "lines": [
           1,
           null,
           1,
-          0,
+          1,
           null,
           null,
           1,
-          1,
-          1,
+          2,
+          2,
           null,
           null
         ]
@@ -62,6 +178,6 @@
         ]
       }
     },
-    "timestamp": 1611074416
+    "timestamp": 1611074903
   }
 }
